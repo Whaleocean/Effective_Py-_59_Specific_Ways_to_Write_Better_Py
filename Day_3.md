@@ -53,5 +53,6 @@ def divide_jason(path):
 # "finally" block is used to clean up the file handle
     finally:
         handle.close()
-  ```
-    This layout is especially useful because all of the blocks work together in intuitive ways. For example, if an exception gets raised in the else block while rewriting the result data, the finally block will still run and close the file handle
+```
+This layout is especially useful because all of the blocks work together in intuitive ways. For example, if an exception gets raised in the else block while rewriting the result data, the finally block will still run and close the file handle
+
