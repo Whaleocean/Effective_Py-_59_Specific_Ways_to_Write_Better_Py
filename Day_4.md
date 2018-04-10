@@ -69,6 +69,10 @@ If the variable doesn\`t exist in the current scope, the Python treats the assig
 The scope of the newly defined variable is **the functions that contains the assignment**
 
 Encoutering this problem is sometimes called the scoping bug.
-benefit
+But it has benefits : preventing local variables in a function from poluting the containing model. Otherwise, every assignment within a function would put garbage into the global module scope. Not only would that be noise, but interplay of the resulting global variables could cause obscure bugs.
+
+**Getting Data Out**
+nonlocal statement
+
 
 
