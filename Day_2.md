@@ -59,4 +59,6 @@ the zip generator yields tuples containing the next value from each iterators.
 if input iterators are of different lengths, it keeps yielding tuples until a wrapped iterator is exhausted
 ### item12: aviod "else" Blocks After for and while loops
 
+reviewed 13/4 2018 10:53
+
 
