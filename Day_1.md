@@ -68,7 +68,7 @@ def get_first_int(values,color,defalut = 0)
      
  Modifying the result of slicing won\`t affect the original list
  BUT **when used in assignments, slices will replace the specified range in the original list**
- And unlike tuple assignments(a,b = lst[:2]), the length of slice assignments don`t need to be the same. 
+ And unlike tuple assignments(a,b = lst[:2]), the length of slice assignments don\`t need to be the same. 
  The values before and after the assigned slice will be preserved. The list will grow or shrink to accommodate the new values
  ```
  print("before:",a)
@@ -92,7 +92,7 @@ print(b == c,c)
 c[2:7] = [2]
 print(a)
 ```
-
+reviewed at 13/4 2018 10:51
 
 
 
